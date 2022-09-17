@@ -6,9 +6,29 @@
 
 body {
     margin: 0;
-    background-color: #f8f8f8;
+    background-color: #f1a20e31;
     font-family: Montserrat, Arial, sans-serif;
     font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #f15a0e;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+}
+h1 {
+    color: #f15a0e;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 0 2px #000;
+}
+h2 {
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 0 3px #f15a0e;
 }
 
 /*----------------Header----------------*/
@@ -35,8 +55,10 @@ body {
     top: 0px;
     z-index: 10;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     background: black;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
     min-height: 65px;
 }
@@ -98,14 +120,14 @@ nav ul a:hover {
 }
 .slider{
     width: 880px;
-    height: 400px;
+    height: 515px;
     margin: 10px auto;
     overflow: hidden;
 }
 .slider-line {
     height: 300px;
     width: 1800px;
-    background-color: #f15a0e;
+    background-color: #ff9a67;
     display: flex;
     position: relative;
     left: 0;
@@ -128,7 +150,7 @@ nav ul a:hover {
     justify-content: center;
 }
 .container-slider{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 /*------------Remont Velo ----------------*/
@@ -137,11 +159,122 @@ nav ul a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .remont-velo{
     width: 1020px;
-    height: 780px;
-    text-align: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 60px;
     background: url(../img/remontVelo.jpg) no-repeat;
+}
+
+/*----------Button-------------*/
+
+button {
+    width: 230px;
+    background-color: black;
+    color: #f15a0e;
+    padding: 0px 70px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 10px;
+}
+.a-button {
+    background-color: black;
+    font-size: 15px;
+    color: #f15a0e;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*-------------Acsesuar----------------*/
+
+.acsesuar-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.acsesuar-velo {
+    width: 695px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 60px;
+    background: url(../img/velosiped-aksessuary.jpg) no-repeat;
+}
+
+/*------------Slider electro-------------*/
+
+.slider-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.remont-electro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider-line-c {
+    height: 300px;
+
+    background-color: #ff9a67;
+    display: flex;
+}
+.test-image-с {
+    width: 250px;
+    margin: 40px;
+}
+.image-elec-rem {
+    width: 340px;
+    margin: 15px;
+}
+.colage-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.colge-colum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-------------Contacts------------*/
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.contacts-img {
+    width: 400px;
+}
+.mapSection{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon {
+    width: 40px;
+    margin: 10px;
 }
