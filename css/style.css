@@ -278,3 +278,12 @@ button {
     width: 40px;
     margin: 10px;
 }
+ /*---------footer----------*/
+
+ .footer {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #f15a0e;
+ }
