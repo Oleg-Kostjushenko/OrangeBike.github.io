@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+}
+
+/*----------------Header----------------*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav a {
+    color: #f15a0e;
+
+}
+
+.nav a:hover {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+.main-nav {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    padding: 10px;
+    background: black;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.38);
+    min-height: 65px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+nav ul a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    transition: 0.5s;
+}
+
+nav ul a:hover {
+    color: #ffffff;
+    border-bottom-color: #989898;
+}
+.logo-img {
+    width: 150px;
+}
+
+/*------------------About---------------*/
+
+.section-about{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.container-about{
+    display: flex;
+    flex-direction: row;
+}
+.img img {
+    width: 550px;
+    margin: 20px;
+}
+.logo-text {
+    font-size: 20px;
+    margin: 15px;
+}
+
+/*-----------slider-----------*/
+.test-image {
+    width: 250px;
+    margin: 20px;
+}
+.slider{
+    width: 880px;
+    height: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.slider-line {
+    height: 300px;
+    width: 1800px;
+    background-color: #f15a0e;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-line p {
+    text-align: center;
+}
+.slider-prev, .slider-next {
+    background-color: black;
+    color: #f15a0e;
+    padding: 0px 70px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.slider-button-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-slider{
+    margin-bottom: 60px;
+}
+
+/*------------Remont Velo ----------------*/
+
+.remont-velo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.remont-velo{
+    width: 1020px;
+    height: 780px;
+    text-align: center;
+    background: url(../img/remontVelo.jpg) no-repeat;
+}
