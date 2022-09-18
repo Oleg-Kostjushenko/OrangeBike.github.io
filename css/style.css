@@ -10,6 +10,12 @@ body {
     font-family: Montserrat, Arial, sans-serif;
     font-weight: 500;
 }
+#toUp {
+    height: 10px;
+}
+.line-selector {
+    height: 30px;
+}
 a {
     text-decoration: none;
     color: #f15a0e;
@@ -144,6 +150,10 @@ nav ul a:hover {
     text-transform: uppercase;
     margin: 5px;
 }
+.slider-prev:hover,
+.slider-next:hover{
+    cursor: pointer;
+}
 .slider-button-c {
     display: flex;
     flex-direction: row;
@@ -185,6 +195,10 @@ button {
     text-transform: uppercase;
     margin: 5px;
     border-radius: 10px;
+}
+button:hover, button::before {
+    filter: brightness(1.5);
+    outline: none;
 }
 .a-button {
     background-color: black;
@@ -234,7 +248,6 @@ button {
 }
 .slider-line-c {
     height: 300px;
-
     background-color: #ff9a67;
     display: flex;
 }
@@ -278,6 +291,44 @@ button {
     width: 40px;
     margin: 10px;
 }
+.up {
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    width: 50px !important;
+    height: 50px !important;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: #000;
+}
+.up:hover, .up:focus {
+    filter: brightness(1.5);
+    outline: none;
+}
+.up::before,
+.up::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.up::before {
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #d8520f;
+}
+
+.up::after{
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid #f15a0e;
+    border-left: 5px solid #f15a0e;
+}
+
  /*---------footer----------*/
 
  .footer {

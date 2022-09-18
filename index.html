@@ -8,7 +8,8 @@
     <title>Домашня сторіна</title>
 </head>
 <body>
-    <header>
+    <div id="toUp"></div>
+    <header">
         <div class="main-nav">
             <div class="container">
                 <div class="mobile-toggle">
@@ -17,18 +18,18 @@
                 <nav class="nav">
                     <img class="logo-img" src="img/Logo.jpg" alt="Logo">
                     <ul>
-                        <li><a class="menu-item" href="#header">Головна сторінка</a></li>
-                        <li><a class="menu-item" href="#about">Прокат велосипедів</a></li>
-                        <li><a class="menu-item" href="#portfolio">Ремонт</a></li>
-                        <li><a class="menu-item" href="#contacts">Аксесуари</a></li>
-                        <li><a class="menu-item" href="#contacts">Велозапсачтини</a></li>
-                        <li><a class="menu-item" href="#contacts">Ремонт електротранспорту</a></li>
+                        <li><a class="menu-item" href="#toUp">Головна сторінка</a></li>
+                        <li><a class="menu-item" href="#prokat">Прокат велосипедів</a></li>
+                        <li><a class="menu-item" href="#remont">Ремонт</a></li>
+                        <li><a class="menu-item" href="#aksesuar">Аксесуари</a></li>
+                        <li><a class="menu-item" href="#zapchast">Велозапсачтини</a></li>
+                        <li><a class="menu-item" href="#remElectro">Ремонт електротранспорту</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <section class="section-about">
+    <section id="home" class="section-about">
         <div class="container-about">
             <div class="img">
                 <img src="img/logo&vel.jpg" alt="Logo">
@@ -50,6 +51,7 @@
             </div>
         </div>
     </section>
+    <div id="prokat" class="line-selector"></div>
     <section>
         <div class="container-slider">
             <div class="slider">
@@ -88,23 +90,26 @@
                 </div>
             </div>
             <div class="slider-button-c">
-                <button class="slider-prev">Prev</button>
-                <button class="slider-next">Next</button>
+                <button class="slider-prev">назад</button>
+                <button class="slider-next">вперед</button>
             </div>
         </div>
     </section>
+    <div id="remont" class="line-selector"></div>
     <section class="remont-velo-section">
         <div class="remont-velo">
             <h2>Ремонт велосипедів</h2>
             <button><a href="#">Детальніше</a></button>
         </div>
     </section>
+    <div id="aksesuar" class="line-selector"></div>
     <section class="acsesuar-section">
         <div class="acsesuar-velo">
             <h2>Велоаксесуари та запчастини</h2>
             <button><a href="#">Детальніше</a></button>
         </div>
     </section>
+    <div id="remElectro" class="line-selector"></div>
     <section>
         <div class="remont-electro">
             <h1>Ремонт електротранспорту</h1>
@@ -124,7 +129,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contacts">
         <div class="contacts">
             <div class="mapSection">
                 <img class="contacts-img" src="img/Logo.jpg" alt="Logo">
@@ -165,6 +170,9 @@
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
+        </div>
+        <div>
+            <a class="up" href="#toUp"></a>
         </div>
     </section>
     <footer>
