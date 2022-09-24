@@ -1,0 +1,21 @@
+.list {
+    height: 100px;
+}
+
+.text-list h3{
+    text-align: center;
+}
+.text-list ul{
+   margin-left: 100px;
+   margin-bottom: 50px;
+}
+.text-list ul li {
+    margin: 10px;
+}
+.text-list p{
+    margin-left: 50px;
+
+}
+.bottomOts {
+    margin-bottom: 150px;
+}
