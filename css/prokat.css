@@ -1,0 +1,22 @@
+.main {
+    margin-top: 100px;
+}
+.image {
+    width: 350px;
+    height: 250px;
+}
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    text-align: center;
+}
+.umovu {
+    text-align: center;
+    margin-bottom: 100px;
+}
