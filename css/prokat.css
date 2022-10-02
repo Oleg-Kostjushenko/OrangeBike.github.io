@@ -15,8 +15,15 @@
 
 .item {
     text-align: center;
+    margin: 50px;
 }
 .umovu {
     text-align: center;
     margin-bottom: 100px;
+}
+.umovu p{
+    margin: 20px;
+}
+.bottom {
+    height: 50px;
 }

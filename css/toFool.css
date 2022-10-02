@@ -1,21 +1,17 @@
-.list {
-    height: 100px;
-}
 
-.text-list h3{
+.list {
+    height: 50px;
+}
+.li1,.li2,.li3 {
+    list-style: none;
+    display: none;
     text-align: center;
-}
-.text-list ul{
-   margin-left: 100px;
-   margin-bottom: 50px;
-}
-.text-list ul li {
     margin: 10px;
 }
-.text-list p{
-    margin-left: 50px;
-
+h1{
+    cursor: pointer;
 }
-.bottomOts {
-    margin-bottom: 150px;
+.listTO {
+    margin: 75px;
+    border: 2px solid rgb(118, 118, 118);
 }

@@ -336,5 +336,9 @@ button:hover, button::before {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     color: #f15a0e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
  }
